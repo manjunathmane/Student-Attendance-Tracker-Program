@@ -8,3 +8,8 @@ if total_classes > 0 and attended_classes > 0:
     print("Attendance:",  atnd_pcent,"%")
 else:
     print("Total classes or attended classes cannot be zero.")
+
+ if atnd_pcent >= 75:
+        print("Status: Eligible for exam")
+    else:
+        print("Status: Not Eligible for exam")
