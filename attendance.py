@@ -7,4 +7,4 @@ if total_classes > 0 and attended_classes > 0:
     print("Classes Attended:", attended_classes)
     print("Attendance:",  atnd_pcent,"%")
 else:
-    print("Total classes cannot be zero.")
+    print("Total classes or attended classes cannot be zero.")
